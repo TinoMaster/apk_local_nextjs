@@ -1,16 +1,4 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faClipboard,
-  faBoxesStacked,
-  faPerson,
-  faShop,
-  faDatabase,
-} from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom";
-
-const SectionPaginas = () => {
+/* export const SectionPaginas = () => {
   return (
     <div className="p-2 flex">
       <h6 className="flex items-center text-white p-1 rounded font-medium text-sm bg-teal-400 shadow-lg shadow-teal-400/50">
@@ -77,11 +65,7 @@ const SectionPaginas = () => {
             to="/mirones"
           >
             <FontAwesomeIcon className="mx-1" icon={faDatabase} /> Miron
-            {/* <div className="absolute flex items-center justify-end h-full w-full -right-4">
-              <p className=" bg-primary/70 font-serif text-lightMode px-1 rounded-md shadow-md shadow-black/40">
-                Nuevo
-              </p>
-            </div> */}
+            
           </NavLink>
         </li>
         <li className="link w-full font-light rounded hover:translate-x-2 transition-transform text-sm md:text-base hover:bg-black/5">
@@ -99,6 +83,6 @@ const SectionPaginas = () => {
       </ul>
     </div>
   );
-};
+}; */
 
-export default SectionPaginas;
+
