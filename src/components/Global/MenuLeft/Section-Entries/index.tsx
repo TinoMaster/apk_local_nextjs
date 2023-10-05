@@ -1,4 +1,4 @@
-import { modelLink } from "@/interfaces/Left Menu/links.model";
+import { modelLink } from "@/models/typescript/interfaces/Left Menu/links.model";
 import React from "react";
 import { Link_ } from "../Link_";
 

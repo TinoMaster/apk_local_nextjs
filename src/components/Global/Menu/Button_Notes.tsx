@@ -1,9 +1,10 @@
 import React from "react";
+import { GiNotebook } from "react-icons/gi";
 
 export const Button_Notes = () => {
   return (
-    <div className="flex items-center w-9 mx-4 rounded-full border-2 border-yellow-200 shadow-md bg-white overflow-hidden transition-all hover:cursor-pointer md:hover:scale-105 md:hover:bg-violet-50">
-      👍
+    <div className="flex items-center justify-center w-9 h-9 bg-yellow-500 shadow-md rounded-full overflow-hidden hover:cursor-pointer">
+      <GiNotebook className="text-xl text-white"/>
     </div>
   );
 };

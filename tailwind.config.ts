@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         lora: ["Lora", "serif"],
         roboto: ["Roboto", "sans"],
+        siliguri: ["Hind-Siliguri", "sans"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -19,6 +20,8 @@ const config: Config = {
       },
       colors: {
         primary: "#6859CA",
+        secondary: "#4ADE80",
+        third: "#FACC15",
       },
     },
   },
