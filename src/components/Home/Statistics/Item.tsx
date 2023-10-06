@@ -6,7 +6,7 @@ export const Item = (Props: PropsHomePage) => {
   return (
     <div className=" flex w-full justify-between items-center shadow p-2 rounded-md ">
       <h4
-        className={`md:text-lg ${Props.principal ? "font-bold" : ""} ${
+        className={`md:text-lg ${Props.principal ? "" : ""} ${
           Props.color === "primary" ? "text-primary" : ""
         } ${
           Props.color === "secondary" ? "text-secondary" : ""
@@ -16,7 +16,7 @@ export const Item = (Props: PropsHomePage) => {
         {Props.title}
       </h4>
       <p
-        className={`flex items-center text-sm md:text-base ${
+        className={`flex items-center text-base ${
           Props.principal ? "font-bold" : ""
         } ${Props.color === "primary" ? "text-primary" : ""} ${
           Props.color === "secondary" ? "text-secondary" : ""

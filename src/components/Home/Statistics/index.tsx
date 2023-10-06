@@ -33,9 +33,9 @@ const items_Ej: PropsHomePage[] = [
 
 export const Statistics = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-full">
       <h4 className="m-1 text-md font-medium">Estadisticas generales</h4>
-      <div className="flex flex-col gap-2 p-3 justify-center items-center shadow-md">
+      <div className="flex flex-col gap-2 p-3 justify-center items-center">
         {items_Ej.map((item) => (
           <Item
             key={item.title}

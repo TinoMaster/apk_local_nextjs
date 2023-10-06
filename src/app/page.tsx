@@ -1,3 +1,4 @@
+import { Resume } from "@/components/Home/Resume";
 import { Sells } from "@/components/Home/Sells";
 import { Statistics } from "@/components/Home/Statistics";
 
@@ -7,8 +8,9 @@ export default function Home() {
       <div className="w-1/4 p-2">
         <Statistics />
       </div>
-      <div className="w-3/4 p-2">
+      <div className="flex flex-col w-3/4 p-2">
         <Sells />
+        <Resume />
       </div>
     </section>
   );

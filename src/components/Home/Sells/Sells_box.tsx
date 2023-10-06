@@ -5,7 +5,7 @@ import { BsCalendar3 } from "react-icons/bs";
 
 export const Sells_box = (props: Props_Sells_Statistics) => {
   return (
-    <div className="flex flex-col shadow-lg shadow-black-400/50 w-1/2 rounded-lg">
+    <div className="flex flex-col shadow-md shadow-black-400/50 w-1/2 rounded-lg">
       <h3
         className={`flex items-center gap-2 p-2 border-b ${
           props.color === "primary" ? "border-primary text-primary" : ""

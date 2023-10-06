@@ -19,7 +19,7 @@ export default function RootLayout({
         <header>
           <MenuLeft />
         </header>
-        <main className="grow relative">
+        <main className="flex flex-col grow relative">
           <Menu />
           {children}
         </main>
