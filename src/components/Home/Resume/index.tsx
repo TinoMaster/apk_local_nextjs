@@ -7,7 +7,7 @@ export const Resume = () => {
     <div className="flex flex-col w-full grow m-auto">
       <h4 className="font-medium text-center p-2">Resumen</h4>
       <div className="flex flex-wrap w-full h-full rounded-md">
-        <Section title="Hojas Blancas" large={3}>
+        <Section title="Impresiones" large={3} color="third">
           <SectionHojas />
         </Section>
       </div>

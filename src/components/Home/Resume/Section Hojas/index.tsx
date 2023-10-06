@@ -4,11 +4,9 @@ import { SaleSummary } from "./SaleSummary";
 
 export const SectionHojas = () => {
   return (
-    <div className="w-full grow">
-      <div className="flex flex-wrap">
-        <Available />
-        <SaleSummary />
-      </div>
+    <div className="w-full h-full flex flex-col gap-1">
+      <Available amount={500} />
+      <SaleSummary />
     </div>
   );
 };
