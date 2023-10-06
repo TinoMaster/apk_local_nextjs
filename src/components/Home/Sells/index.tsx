@@ -59,7 +59,7 @@ const ej_Sells_statistics: Props_Sells_Statistics[] = [
 
 export const Sells = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-col w-full lg:flex-row justify-between">
       {ej_Sells_statistics.map((sell) => (
         <Sells_box
           key={sell.range}

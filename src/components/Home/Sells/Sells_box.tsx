@@ -5,7 +5,7 @@ import { BsCalendar3 } from "react-icons/bs";
 
 export const Sells_box = (props: Props_Sells_Statistics) => {
   return (
-    <div className="w-1/2 rounded-lg p-2">
+    <div className="w-full lg:w-1/2 rounded-lg p-2">
       <div className="flex flex-col shadow-md shadow-black-400/50">
         <h3
           className={`flex items-center gap-2 p-2 text-white bg-gradient-to-tr rounded-t-md ${

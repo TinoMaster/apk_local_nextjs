@@ -4,11 +4,11 @@ import { Statistics } from "@/components/Home/Statistics";
 
 export default function Home() {
   return (
-    <section className="flex justify-start w-full h-full p-4">
-      <div className="w-1/4 p-2">
+    <section className="flex flex-col lg:flex-row justify-start w-full h-full lg:p-4 overflow-auto">
+      <div className="w-full lg:w-1/4 p-2">
         <Statistics />
       </div>
-      <div className="flex flex-col w-3/4 p-2">
+      <div className="flex flex-col w-full lg:w-3/4 p-2">
         <Sells />
         <Resume />
       </div>

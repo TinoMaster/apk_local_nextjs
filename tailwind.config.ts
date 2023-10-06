@@ -23,6 +23,10 @@ const config: Config = {
         secondary: "#0D9488",
         third: "#FACC15",
       },
+      maxWidth: {
+        "1080p": "1920px",
+        "720p": "1280px",
+      },
     },
   },
   plugins: [],

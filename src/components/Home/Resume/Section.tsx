@@ -12,10 +12,10 @@ export const Section = ({ children, title, large, color }: SectionProps) => {
   return (
     <div
       className={`${large === 1 ? "w-full" : ""} ${
-        large === 2 ? "w-1/2" : ""
-      } ${large === 3 ? "w-1/3" : ""} h-1/2 p-2`}
+        large === 2 ? "w-full lg:w-2/3" : ""
+      } ${large === 3 ? "w-full lg:w-1/3" : ""} lg:h-1/2 p-2 text-lg lg:text-sm`}
     >
-      <div className="flex flex-col w-full h-full shadow-md p-2 gap-2 rounded-md bg-white">
+      <div className="flex flex-col w-full h-full shadow-md gap-2 rounded-md bg-white">
         <h3
           className={`text-center text-white bg-gradient-to-tr ${
             color === "primary" ? "from-primary via-primary/70 to-primary" : ""
@@ -25,7 +25,7 @@ export const Section = ({ children, title, large, color }: SectionProps) => {
               : ""
           } ${
             color === "third" ? "from-third via-third/70 to-third" : ""
-          } py-1 rounded-md`}
+          } py-1 rounded-t-md`}
         >
           {title}
         </h3>

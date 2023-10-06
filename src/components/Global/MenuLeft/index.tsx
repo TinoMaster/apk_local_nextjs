@@ -5,7 +5,7 @@ import { entriesLinks } from "@/data/Left Menu/entriesLinks.data";
 
 function MenuLeft() {
   return (
-    <div className="flex flex-col w-[300px] h-full shadow-md gap-2 bg-primary/5">
+    <div className="hidden xl:flex flex-col w-[300px] h-full shadow-md gap-2 bg-primary/5">
       <div className="flex h-16 text-white border-r border-primary-400 justify-center items-center text-lg rounded-b-md bg-primary">
         <h2>Menu</h2>
       </div>
