@@ -6,9 +6,15 @@ export const Salary = (props: Props_Salary) => {
   return (
     <div>
       <h5
-        className={`font-serif text-center rounded-md text-white ${
-          props.color === "primary" ? "bg-primary" : ""
-        } ${props.color === "secondary" ? "bg-secondary" : ""}`}
+        className={`font-serif text-center rounded-md text-white bg-gradient-to-tr ${
+          props.color === "primary"
+            ? "from-primary via-primary/70 to-primary"
+            : ""
+        } ${
+          props.color === "secondary"
+            ? "from-secondary via-secondary/70 to-secondary"
+            : ""
+        }`}
       >
         Salarios
       </h5>
