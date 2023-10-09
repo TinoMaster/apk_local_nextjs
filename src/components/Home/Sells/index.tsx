@@ -1,6 +1,6 @@
 import React from "react";
 import { Sells_box } from "./Sells_box";
-import { Props_Sells_Statistics } from "@/models/typescript/interfaces/Sells/sells_statistics";
+import { Props_Sells_Statistics } from "@/models/typescript/interfaces/Sells/sales_statisticsTypes";
 
 const ej_Sells_statistics: Props_Sells_Statistics[] = [
   {

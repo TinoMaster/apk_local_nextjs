@@ -1,4 +1,4 @@
-import { modelLink } from "@/models/typescript/interfaces/Left Menu/links.model";
+import { modelLink } from "@/models/typescript/interfaces/Left Menu/linksTypes";
 import { HiOutlineHome } from "react-icons/hi";
 import { FaSellsy } from "react-icons/fa";
 import { MdInventory, MdOutlineDataExploration } from "react-icons/md";

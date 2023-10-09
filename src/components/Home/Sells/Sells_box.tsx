@@ -1,4 +1,4 @@
-import { Props_Sells_Statistics } from "@/models/typescript/interfaces/Sells/sells_statistics";
+import { Props_Sells_Statistics } from "@/models/typescript/interfaces/Sells/sales_statisticsTypes";
 import { Resume } from "./Resume";
 import { Salary } from "./Salary";
 import { BsCalendar3 } from "react-icons/bs";

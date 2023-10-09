@@ -1,4 +1,4 @@
-import { Colors } from "../colors";
+import { Colors } from "../colorsTypes";
 
 export type BestSell = {
   data: Date;

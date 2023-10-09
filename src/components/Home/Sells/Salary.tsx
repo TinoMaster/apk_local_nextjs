@@ -1,4 +1,4 @@
-import { Props_Salary } from "@/models/typescript/interfaces/Sells/sells_statistics";
+import { Props_Salary } from "@/models/typescript/interfaces/Sells/sales_statisticsTypes";
 import React from "react";
 import { Item_Salary } from "./Item_Salary";
 

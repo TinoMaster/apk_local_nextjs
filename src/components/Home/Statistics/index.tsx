@@ -1,7 +1,7 @@
 import React from "react";
 import { Item } from "./Item";
 import { FaAccessibleIcon, FaDollyFlatbed } from "react-icons/fa";
-import { PropsHomePage } from "@/models/typescript/interfaces/statistics/statistics.model";
+import { PropsHomePage } from "@/models/typescript/interfaces/statistics/statisticsTypes";
 import { Fa42Group, Fa500Px } from "react-icons/fa6";
 
 const items_Ej: PropsHomePage[] = [
@@ -23,6 +23,31 @@ const items_Ej: PropsHomePage[] = [
     title: "Ingresos",
     value: "Jorge",
     icon: Fa500Px,
+  },
+  {
+    title: "Ingresos",
+    value: 1000,
+    icon: FaAccessibleIcon,
+  },
+  {
+    title: "Ingresos",
+    value: 1000,
+    icon: FaAccessibleIcon,
+  },
+  {
+    title: "Ingresos",
+    value: 1000,
+    icon: FaAccessibleIcon,
+  },
+  {
+    title: "Ingresos",
+    value: 1000,
+    icon: FaAccessibleIcon,
+  },
+  {
+    title: "Ingresos",
+    value: 1000,
+    icon: FaAccessibleIcon,
   },
   {
     title: "Ingresos",

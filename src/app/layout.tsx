@@ -15,11 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-siliguri max-w-1080p m-auto max-h-[1000px] flex w-screen h-screen text-slate-700 overflow-hidden">
+      <body className="font-siliguri max-w-1080p m-auto max-h-[1000px] flex w-screen h-screen text-slate-600 overflow-hidden">
         <header>
           <MenuLeft />
         </header>
         <main className="flex flex-col grow relative">
+          <div className="gradient"></div>
           <Menu />
           {children}
         </main>

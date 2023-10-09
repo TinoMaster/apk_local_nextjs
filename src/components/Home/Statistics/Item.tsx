@@ -1,4 +1,4 @@
-import { PropsHomePage } from "@/models/typescript/interfaces/statistics/statistics.model";
+import { PropsHomePage } from "@/models/typescript/interfaces/statistics/statisticsTypes";
 import React from "react";
 import { FaDollarSign } from "react-icons/fa6";
 
